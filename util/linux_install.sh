@@ -190,4 +190,4 @@ else
 fi
 
 # Global install tasks
-pip3 install -r ${util_dir}/../requirements.txt
+pip3 install --user -r ${util_dir}/../requirements.txt
