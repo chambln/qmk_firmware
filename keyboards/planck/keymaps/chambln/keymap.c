@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Qwerty
  * ,-----------------------------------------------------------------------------------.
  * | Tab  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | Bksp |
- * | Esc  |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   ;  |  '@  |
+ * | Esc  |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |  ;:  |  '@  |
  * |  \|  |   Z  |   X  |   C  |   V  |   B  |   N  |   M  |  ,<  |  .>  |  /?  | Ret  |
  * | Ctrl |      |      | GUI  |Lower |Space |Shift |Raise |      |      |      | Alt  |
  * `-----------------------------------------------------------------------------------'
@@ -57,14 +57,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Lower
  * ,-----------------------------------------------------------------------------------.
  * |      |      |      |  End |      |      |      | Mute |  Tab |      |  Up  |      |
- * |      | Home |      |  Del | Right|Escape|Backsp| VolDn| VolUp|      |      |      |
+ * |      | Home |      |  Del | Right|Escape|Backsp| VolUp| VolDn|      |      |      |
  * |      |      |  Dim |Bright|      | Left | Down | Enter|      |      |      |      |
  * |      |      |      |      |      |      |      |      |      |      |      |      |
  * `-----------------------------------------------------------------------------------'
  */
 [_LOWER] = LAYOUT_planck_grid(
     _______, _______, _______, KC_END , _______, _______, _______, KC_MUTE, KC_TAB , _______, KC_UP  , _______,
-    _______, KC_HOME, _______, KC_DEL , KC_RGHT, KC_ESC , KC_BSPC, KC_VOLD, KC_VOLU, _______, _______, _______,
+    _______, KC_HOME, _______, KC_DEL , KC_RGHT, KC_ESC , KC_BSPC, KC_VOLU, KC_VOLD, _______, _______, _______,
     _______, _______, KC_BRID, KC_BRIU, _______, KC_LEFT, KC_DOWN, KC_ENT , _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
 ),
