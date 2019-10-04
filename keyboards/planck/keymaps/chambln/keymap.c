@@ -57,15 +57,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Lower
  * ,-----------------------------------------------------------------------------------.
  * |      |      |      |  End |      |      |      |      |  Tab |      |  Up  |      |
- * |      | Home |      |  Del | Right|Escape|Backsp| Enter|      |      |      |      |
- * |      |      |  Dim |Bright|      | Left | Down | Mute | VolDn| VolUp|      |      |
+ * |      | Home |      |  Del | Right|Escape|Backsp|      |      |      |      |      |
+ * |      |      |  Dim |Bright|      | Left | Down | Enter| VolDn| VolUp| Mute |      |
  * |      |      |      |      |      |      |      |      |      |      |      |      |
  * `-----------------------------------------------------------------------------------'
  */
 [_LOWER] = LAYOUT_planck_grid(
     _______, _______, _______, KC_END , _______, _______, _______, _______, KC_TAB , _______, KC_UP  , _______,
-    _______, KC_HOME, _______, KC_DEL , KC_RGHT, KC_ESC , KC_BSPC, KC_ENT , _______, _______, _______, _______,
-    _______, _______, KC_BRID, KC_BRIU, _______, KC_LEFT, KC_DOWN, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______,
+    _______, KC_HOME, _______, KC_DEL , KC_RGHT, KC_ESC , KC_BSPC, _______, _______, _______, _______, _______,
+    _______, _______, KC_BRID, KC_BRIU, _______, KC_LEFT, KC_DOWN, KC_ENT , KC_VOLD, KC_VOLU, KC_MUTE, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
 ),
 
