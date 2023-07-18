@@ -21,28 +21,27 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_split_3x6_3(
-       KC_TAB,    KC_Q,    KC_W,    KC_D,    KC_R,    KC_F,                         KC_J,    KC_L,    KC_U,    KC_P, KC_SCLN, KC_BSPC,
-       KC_ESC,    KC_A,    KC_S,    KC_T,    KC_H,    KC_G,                         KC_Y,    KC_N,    KC_E,    KC_O,    KC_I, KC_QUOT,
-      KC_LGUI,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_K,    KC_M, KC_COMM,  KC_DOT, KC_SLSH,  KC_ENT,
-                                          KC_LCTL,   MO(1),  KC_SPC,    KC_LSFT,   MO(2), KC_LALT
-
+      _______,         KC_Q,         KC_W,         KC_D,         KC_R,    KC_F,                        KC_J,         KC_L,         KC_U,         KC_P,      KC_SCLN, _______,
+      _______, LGUI_T(KC_A), LALT_T(KC_S), LCTL_T(KC_T), LSFT_T(KC_H),    KC_G,                        KC_Y, RSFT_T(KC_N), RCTL_T(KC_E), LALT_T(KC_O), RGUI_T(KC_I), KC_QUOT,
+      _______,         KC_Z,         KC_X,         KC_C,         KC_V,    KC_B,                        KC_K,         KC_M,      KC_COMM,       KC_DOT,      KC_SLSH, _______,
+                                                 KC_ESC,        MO(1),  KC_SPC,             KC_BSPC,   MO(2),      KC_ENT
   ),
   [1] = LAYOUT_split_3x6_3(
-      _______, XXXXXXX, XXXXXXX,   KC_UP, XXXXXXX, XXXXXXX,                      XXXXXXX,  KC_INS, KC_HOME, KC_PGUP, _______, _______,
-      _______, XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX,                      XXXXXXX,  KC_DEL,  KC_END, KC_PGDN, XXXXXXX, XXXXXXX,
-      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      _______,  KC_ENT, XXXXXXX, XXXXXXX, XXXXXXX, _______,
+      _______,  KC_TAB, KC_UNDS,   KC_UP, KC_MINS, XXXXXXX,                      XXXXXXX,  KC_INS, KC_HOME, KC_PGUP,   KC_AT, _______,
+      _______, XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX,                      XXXXXXX,  KC_DEL,  KC_END, KC_PGDN, KC_QUOT, _______,
+      _______, XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU, XXXXXXX,                      _______, KC_PSCR, KC_SCRL, KC_PAUS, _______, _______,
                                           _______, _______, _______,    _______,   MO(3), _______
   ),
   [2] = LAYOUT_split_3x6_3(
-      _______,  KC_GRV,    KC_9,    KC_8,    KC_7, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,
-      _______, KC_NUBS,    KC_6,    KC_5,    KC_4, XXXXXXX,                      XXXXXXX,  KC_EQL, KC_MINS, KC_LBRC, KC_RBRC, KC_NUHS,
-      _______,    KC_0,    KC_3,    KC_2,    KC_1, XXXXXXX,                      XXXXXXX, XXXXXXX, _______, _______, _______, _______,
+      _______,  KC_GRV, KC_TILD, KC_ASTR, KC_AMPR, KC_LCBR,                      KC_RCBR,    KC_7,    KC_8,    KC_9, KC_PLUS, _______,
+      _______, KC_PIPE, KC_CIRC, KC_PERC,  KC_DLR, KC_LPRN,                      KC_RPRN,    KC_4,    KC_5,    KC_6,  KC_EQL, _______,
+      _______, KC_NUBS, KC_NUHS, KC_DQUO, KC_EXLM, KC_LBRC,                      KC_RBRC,    KC_1,    KC_2,    KC_3,    KC_0, _______,
                                           _______,   MO(3), _______,    _______, _______, _______
   ),
   [3] = LAYOUT_split_3x6_3(
-      _______,  KC_F12,   KC_F9,   KC_F8,   KC_F7, XXXXXXX,                      XXXXXXX, KC_PSCR, XXXXXXX, KC_PAUS, XXXXXXX, _______,
-      _______,  KC_F11,   KC_F6,   KC_F5,   KC_F4, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-      _______,  KC_F10,   KC_F3,   KC_F2,   KC_F1, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,
+      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX,   KC_F7,   KC_F8,   KC_F9,  KC_F10, _______,
+      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX,   KC_F4,   KC_F5,   KC_F6,  KC_F11, XXXXXXX,
+      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_BOOT,                      XXXXXXX,   KC_F1,   KC_F2,   KC_F3,  KC_F12, _______,
                                           _______, _______, _______,    _______, _______, _______
   )
 };
