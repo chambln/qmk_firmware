@@ -260,6 +260,12 @@ KC_A,              KC_S,              KC_D,              KC_F,              KC_G
 KC_Y,              KC_X,              KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMM,           KC_DOT,            KC_SLSH,           \
 U_NP,              U_NP,              KC_ESC,            KC_SPC,            KC_TAB,            KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_TAP_ASTHNEOI \
+KC_Q,              KC_W,              KC_D,              KC_R,              KC_T,              KC_J,              KC_L,              KC_U,              KC_QUOT,           KC_P,              \
+KC_A,              KC_S,              KC_T,              KC_H,              KC_G,              KC_Y,              KC_N,              KC_E,              KC_O,              KC_I,              \
+KC_Z,              KC_X,              KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMM,           KC_DOT,            KC_SLSH,           \
+U_NP,              U_NP,              KC_ESC,            KC_SPC,            KC_TAB,            KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP
+
 
 #define MIRYOKU_ALTERNATIVES_NAV_INVERTEDT_FLIP \
 KC_PGUP,           KC_HOME,           KC_UP,             KC_END,            KC_INS,            U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
