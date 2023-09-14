@@ -272,6 +272,12 @@ KC_LSFT,           KC_A,              KC_S,              KC_D,              KC_F
 KC_LCTL,           KC_Z,              KC_X,              KC_C,              KC_V,              KC_N,              KC_1,              KC_2,              KC_3,              KC_B,              \
 U_NP,              U_NP,              KC_ESC,            KC_SPC,            KC_LALT,           KC_ESC,            KC_GRV,            KC_DEL,            U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_TAP_STENO \
+KC_1,              KC_1,              KC_1,              KC_1,              KC_1,              KC_1,              KC_1,              KC_1,              KC_LBRC,           KC_QUOT,           \
+KC_Q,              KC_W,              KC_E,              KC_R,              KC_T,              KC_Y,              KC_U,              KC_I,              KC_O,              KC_P,              \
+KC_A,              KC_S,              KC_D,              KC_F,              KC_G,              KC_H,              KC_J,              KC_K,              KC_L,              KC_SCLN,           \
+U_NP,              U_NP,              KC_1,              KC_C,              KC_V,              KC_N,              KC_M,              KC_1,              U_NP,              U_NP
+
 
 #define MIRYOKU_ALTERNATIVES_NAV_INVERTEDT_FLIP \
 KC_PGUP,           KC_HOME,           KC_UP,             KC_END,            KC_INS,            U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \

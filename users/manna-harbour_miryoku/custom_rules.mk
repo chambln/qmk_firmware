@@ -2,4 +2,4 @@
 # https://github.com/manna-harbour/miryoku
 
 MIRYOKU_ALPHAS=ASTHNEOI
-MIRYOKU_TAP=ASTHNEOI
+MIRYOKU_TAP=STENO
